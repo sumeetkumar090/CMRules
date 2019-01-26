@@ -10,25 +10,13 @@
 <ProcessLog>
   <TimeStamp>12/07/2018 00:20:20</TimeStamp>                                   
   <CaseID>1</CaseID>                  
-  <TaskID>1</TaskID>
+  <TaskID>2</TaskID>
   <Reason>Login</Reason>
 </ProcessLog>
 <ProcessLog>
   <TimeStamp>12/07/2018 00:30:30</TimeStamp>                                   
   <CaseID>1</CaseID>                  
-  <TaskID>1</TaskID>
-  <Reason>Login</Reason>
-</ProcessLog>
-<ProcessLog>
-  <TimeStamp>12/07/2018 01:10:10</TimeStamp>                                   
-  <CaseID>1</CaseID>                  
   <TaskID>3</TaskID>
-  <Reason>Withdraw</Reason>
-</ProcessLog>
-<ProcessLog>
-  <TimeStamp>12/07/2018 01:20:20</TimeStamp>                                   
-  <CaseID>1</CaseID>                 
-  <TaskID>4</TaskID>
-  <Reason>Withdraw</Reason>
+  <Reason>Login</Reason>
 </ProcessLog>
 </ProcessLog>
