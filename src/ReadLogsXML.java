@@ -36,10 +36,10 @@ public class ReadLogsXML {
 		File processFile = new File(filePath);
 		processLog(processFile);
 
-//		System.exit(0);
+		// System.exit(0);
 
 	}
-	
+
 	public static void main(String[] args) throws ParseException {
 		readXMLData();
 	}
@@ -70,7 +70,7 @@ public class ReadLogsXML {
 	}
 
 	private static void setActivityMap(NodeList processNodeList) throws FileNotFoundException, ParseException {
-//		processMap = new HashMap<>();
+		// processMap = new HashMap<>();
 
 		for (int i = 0; i < processNodeList.getLength(); i++) {
 			ProcessLogDto processLogDto = getProcessLog(processNodeList.item(i));
@@ -118,6 +118,13 @@ public class ReadLogsXML {
 					out.print(" ");
 					out.print(s);
 				}
+
+				out.print(" -1");
+				// Hard coded values - need to generate dynamically
+				out.print(" 3");
+				out.print(" 4");
+				out.print(" -1");
+				
 				out.println(" -2");
 				System.out.println(fmt.format(entry.getKey()) + ": " + entry.getValue());
 			}
@@ -159,35 +166,39 @@ public class ReadLogsXML {
 	 * @param node
 	 * @return
 	 */
-//	public static EventLogDto getEventLog(Node node) {
-//		// XMLReaderDOM domReader = new XMLReaderDOM();
-//		EventLogDto eventLog = new EventLogDto();
-//		if (node.getNodeType() == Node.ELEMENT_NODE) {
-//			Element element = (Element) node;
-//			eventLog.setTimeStamp(getTagValue("TimeStamp", element));
-//			eventLog.setEventId(getTagValue("EventID", element));
-//		}
-//
-//		return eventLog;
-//	}
+	// public static EventLogDto getEventLog(Node node) {
+	// // XMLReaderDOM domReader = new XMLReaderDOM();
+	// EventLogDto eventLog = new EventLogDto();
+	// if (node.getNodeType() == Node.ELEMENT_NODE) {
+	// Element element = (Element) node;
+	// eventLog.setTimeStamp(getTagValue("TimeStamp", element));
+	// eventLog.setEventId(getTagValue("EventID", element));
+	// }
+	//
+	// return eventLog;
+	// }
 
 	/**
 	 * 
 	 * @param node
 	 * @return
 	 */
-//	public static ProcessEventStateTransitionDto getProcessEventStateTransitionDto(Node node) {
-//		// XMLReaderDOM domReader = new XMLReaderDOM();
-//		ProcessEventStateTransitionDto processEventStateTransitionDto = new ProcessEventStateTransitionDto();
-//		if (node.getNodeType() == Node.ELEMENT_NODE) {
-//			Element element = (Element) node;
-//			processEventStateTransitionDto.setTaskId(getTagValue("TaskID", element));
-//			processEventStateTransitionDto.setPostEffect(getTagValue("PostEffect", element));
-//			processEventStateTransitionDto.setPriorEffect(getTagValue("PriorEffect", element));
-//		}
-//
-//		return processEventStateTransitionDto;
-//	}
+	// public static ProcessEventStateTransitionDto
+	// getProcessEventStateTransitionDto(Node node) {
+	// // XMLReaderDOM domReader = new XMLReaderDOM();
+	// ProcessEventStateTransitionDto processEventStateTransitionDto = new
+	// ProcessEventStateTransitionDto();
+	// if (node.getNodeType() == Node.ELEMENT_NODE) {
+	// Element element = (Element) node;
+	// processEventStateTransitionDto.setTaskId(getTagValue("TaskID", element));
+	// processEventStateTransitionDto.setPostEffect(getTagValue("PostEffect",
+	// element));
+	// processEventStateTransitionDto.setPriorEffect(getTagValue("PriorEffect",
+	// element));
+	// }
+	//
+	// return processEventStateTransitionDto;
+	// }
 
 	/**
 	 * 

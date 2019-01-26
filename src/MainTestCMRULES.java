@@ -12,7 +12,7 @@ public class MainTestCMRULES {
 		// Load database
 
 		//ReadLogsXML.readXMLData();
-		System.out.println();
+		//System.out.println();
 		String input = fileToPath("contextPrefixSpan1.txt"); // the database
 		String output = "output.txt"; // the path for saving the frequent
 											// itemsets found
