@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Process Log -->
+<ProcessLog>
+<ProcessLog>
+  <TimeStamp>12/07/2018 00:10:10</TimeStamp>                                   
+  <CaseID>1</CaseID>                  
+  <TaskID>1</TaskID>
+  <Reason>Login</Reason>
+</ProcessLog>
+<ProcessLog>
+  <TimeStamp>12/07/2018 00:20:20</TimeStamp>                                   
+  <CaseID>1</CaseID>                  
+  <TaskID>2</TaskID>
+  <Reason>Login</Reason>
+</ProcessLog>
+<ProcessLog>
+  <TimeStamp>12/07/2018 00:30:30</TimeStamp>                                   
+  <CaseID>1</CaseID>                  
+  <TaskID>3</TaskID>
+  <Reason>Login</Reason>
+</ProcessLog>
+</ProcessLog>

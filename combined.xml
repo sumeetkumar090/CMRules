@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Event Log -->
+<Combined>
+<note>
+  <TimeStamp>12/07/2018 00:10:10</TimeStamp>
+  <TaskID>1</TaskID>
+  <Effect>e1</Effect>
+</note>
+<note>
+  <TimeStamp>12/07/2018 00:20:10</TimeStamp>
+  <TaskID>1</TaskID>
+  <Effect>e2</Effect>
+</note>
+<note>
+  <TimeStamp>12/07/2018 00:30:10</TimeStamp>
+  <TaskID>1</TaskID>
+  <Effect>e3</Effect>
+</note>
+<note>
+  <TimeStamp>12/07/2018 01:10:10</TimeStamp>
+  <TaskID>2</TaskID>
+  <Effect>e4</Effect>
+</note>
+<note>
+  <TimeStamp>12/07/2018 01:10:10</TimeStamp>
+  <TaskID>2</TaskID>
+  <Effect>e5</Effect>
+</note>
+</Combined>
